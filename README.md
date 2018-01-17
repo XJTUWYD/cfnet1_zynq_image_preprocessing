@@ -74,5 +74,7 @@ Target_side_3 = round(instanceSize * inside_scale(3)/inside_scale(1))
 
 最终的处理结果：
 ![original image](https://github.com/XJTUWYD/cfnet1_zynq_image_preprocessing/tree/master/img/1.png)
+
 ![exemplar_image](https://github.com/XJTUWYD/cfnet1_zynq_image_preprocessing/tree/master/img/2.png)
+
 ![x_crops](https://github.com/XJTUWYD/cfnet1_zynq_image_preprocessing/tree/master/img/3.png)
