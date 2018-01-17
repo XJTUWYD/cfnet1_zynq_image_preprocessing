@@ -71,3 +71,8 @@ Target_side_2 = round(instanceSize * inside_scale(2)/inside_scale(1))
 Target_side_3 = round(instanceSize * inside_scale(3)/inside_scale(1))
 
 以image_2的中心为中心，先将图像剪切成Target_side_1大小最终resize成为instanceSize大小作为第一个尺度空间。以image_2的中心为中心，先将图像剪切成Target_side_2大小最终resize成为instanceSize大小作为第二个尺度空间。以image_2的中心为中心，先将图像剪切成Target_side_3大小最终resize成为instanceSize大小作为第三个尺度空间。
+
+最终的处理结果：
+![original image](https://github.com/XJTUWYD/cfnet1_zynq_image_preprocessing/tree/master/img/1.png)
+![exemplar_image](https://github.com/XJTUWYD/cfnet1_zynq_image_preprocessing/tree/master/img/2.png)
+![x_crops](https://github.com/XJTUWYD/cfnet1_zynq_image_preprocessing/tree/master/img/3.png)
